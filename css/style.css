@@ -1,0 +1,786 @@
+body {
+    height: 4000px;
+    background-image: linear-gradient( #000000, #00ffff, #ff0000);
+}
+h1.titulo{
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    font-variant: small-caps;
+}
+div {
+  width: 180px;
+  height: 80px;
+  background-color: red;
+  position: relative;
+  animation-name: titulo;
+  animation-duration: 9s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  }
+@keyframes titulo {
+    from {
+        transform: translateX(0px);
+      }
+      to {
+        transform: translateX(1000px);
+      }
+  40%  {background-color:#0000FF; left: 0px; top:0px;}
+  50%  {background-color:#2be2e2; left:0px; top:0px;}
+  100%  {background-color:#00ff37; left:0px; top:0px;}
+  150%  {background-color:#fbff00; left:0px; top:0px;}
+  100% {background-color:#ff0000; left:0px; top:0px;}
+  }
+
+p.texto {
+    float: left;
+    font-variant: small-caps;
+    font-size: 21px;
+    text-align: left;
+    border: 3px solid rgb(0, 228, 245);
+    position: left;
+    right: 0px;
+    width: 450px;
+    background-color: #E0FFFF;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 150%;
+  }
+b.t1{
+    text-decoration: overline;
+}
+b.t2{
+    text-decoration: line-through;
+}
+b.t3{
+    text-decoration: underline;
+}
+b.t4{
+    text-decoration: overline underline;
+}
+b.t5{
+    font-family: Copperplate;
+}
+b.t6{
+    font-family: Courier New;
+}
+b.t7{
+    font-family:Lucida Bright;
+}
+b.t8{
+    font-family:Candara;
+}
+b.t9{
+    font-family: Brush Script MT;
+}
+b.t10{
+    font-family:Garamond;
+}
+p.texto2 {
+    float: right;
+    font-variant: small-caps;
+    font-size: 21px;
+    text-align: left;
+    border: 3px solid rgb(0, 228, 245);
+    position: left;
+    right: 0px;
+    width: 450px;
+    background-color: #E0FFFF;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 150%;
+  }
+  b.b1{
+    outline-style: dotted;
+    outline-color:red;
+}
+b.b2{
+    outline-style: dashed;
+    outline-color:rgb(17, 0, 255);
+}
+b.b3{
+    outline-style: solid ;
+    outline-color:rgb(123, 255, 0);
+}
+b.b4{
+    outline-style: double ;
+    outline-color:rgb(255, 0, 255);
+}
+b.b5{
+    outline-style: groove ;
+    outline-color:rgb(28, 245, 209);
+}
+b.b6{
+    outline-style: ridge ;
+    outline-color:rgb(255, 197, 6);
+}
+b.b7{
+    outline-style: outset ;
+    outline-color:rgb(0, 0, 0);
+}
+b.b8{
+    outline-style: solid ;
+    outline-color:rgb(217, 255, 0);
+}
+b.b9{
+    outline-style: ridge ;
+    outline-color:rgb(234, 0, 255);
+}
+b.b10{
+    outline-style: dotted ;
+    outline-color:rgb(255, 0, 119);
+}
+p.texto3 {
+    font-variant: small-caps;
+    font-size: 21px;
+    text-align: left;
+    border: 3px solid rgb(0, 228, 245);
+    position: left;
+    right: 0px;
+    width: 450px;
+    background-color: #E0FFFF;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 150%;
+  }
+  b.c1{
+    background-color: blue;
+    color: white;
+}
+b.c2{
+    background-color: rgb(255, 0, 0);
+  color: white;
+}
+b.c3{
+    background-color: rgb(255, 153, 0);
+    color: white;
+}
+b.c4{
+    background-color: rgb(251, 255, 0);
+    color: white;
+}
+b.c5{
+    background-color: rgb(72, 255, 0);
+    color: white;
+}
+b.c6{
+    background-color: rgb(0, 255, 234);
+    color: white;
+}
+b.c7{
+    background-color: rgb(183, 0, 255);
+    color: white;
+}
+b.c8{
+    background-color: rgb(255, 0, 212);
+    color: white;
+}
+b.c9{
+    background-color: rgb(255, 0, 85);
+    color: white;
+}
+b.c10{
+    background-color: rgb(0, 0, 0);
+  color: white;
+}
+p.texto4 {
+    float: right;
+    font-variant: small-caps;
+    font-size: 21px;
+    text-align: left;
+    border: 3px solid rgb(0, 228, 245);
+    position: left;
+    right: 0px;
+    width: 450px;
+    background-color: #E0FFFF;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 150%;
+  }
+  b.d1{
+    text-decoration: line-through;
+    background-color: rgb(255, 0, 157);
+    color: white;
+}
+b.d2{
+    text-decoration: overline;
+    font-family: Perpetua;
+    background-color: rgb(201, 255, 74);
+  color: white;
+}
+b.d3{
+    text-decoration: underline;
+    background-color: rgb(76, 252, 32);
+    color: rgb(0, 0, 0);
+}
+b.d4{
+    text-decoration: overline underline;
+    font-family: Copperplate;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+b.d5{
+    text-decoration: overline;
+    font-family: Courier New;
+    background-color: rgb(255, 102, 0);
+    color: rgb(0, 0, 0);
+}
+b.d6{
+    text-decoration: line-through;
+    font-family:Lucida Bright;
+    background-color: rgb(88, 146, 255);
+    color: rgb(0, 0, 0);
+}
+b.d7{
+    text-decoration: line-through;
+    font-family:Candara;
+    background-color: rgb(131, 255, 187);
+    color: rgb(0, 0, 0);
+}
+b.d8{
+    text-decoration: overline;
+    font-family: Brush Script MT;
+    background-color: rgb(255, 81, 0);
+    color: rgb(0, 0, 0);
+}
+b.d9{
+    text-decoration: overline underline;
+    font-family:Garamond;
+    background-color: rgb(0, 255, 242);
+    color: rgb(0, 0, 0);
+}
+b.d10{
+    text-decoration: underline;
+    background-color: rgb(111, 0, 255);
+    color: rgb(0, 0, 0);
+}
+p.texto5 {
+    font-variant: small-caps;
+    font-size: 21px;
+    text-align: left;
+    border: 3px solid rgb(245, 0, 0);
+    position: left;
+    right: 0px;
+    width: 450px;
+    background-color: #E0FFFF;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 150%;
+  }
+  b.e1{
+    color:rgb(76, 252, 32);
+    font-family: Copperplate;
+    outline-style: dotted;
+    outline-color:rgb(81, 255, 0);
+}
+b.e2{
+    color:rgb(255, 0, 0);
+    font-family: Courier New;
+    outline-style: dashed;
+    outline-color:rgb(255, 0, 0);
+}
+b.e3{
+    color: rgb(255, 230, 0);
+    font-family:Candara;
+    outline-style: solid ;
+    outline-color:rgb(255, 230, 0);
+}
+b.e4{
+    color: rgb(0, 255, 242);
+    font-family:Lucida Bright;
+    outline-style: double ;
+    outline-color:rgb(0, 255, 242);
+}
+b.e5{
+    color:rgb(245, 28, 180);
+    font-family: Brush Script MT;
+    outline-style: groove ;
+    outline-color:rgb(245, 28, 180);
+}
+b.e6{
+    color: rgb(48, 255, 6);
+    font-family:Garamond;
+    outline-style: ridge ;
+    outline-color:rgb(48, 255, 6);
+}
+b.e7{
+    font-family: Didot;
+    outline-style: outset ;
+    outline-color:rgb(5, 5, 5);
+}
+b.e8{
+    color: rgb(255, 136, 0);
+    font-family: Calisto MT;
+    outline-style: dotted ;
+    outline-color:rgb(255, 136, 0);
+}
+b.e9{
+    color: rgb(255, 0, 170);;
+    font-size: Palatino;
+    outline-style: ridge ;
+    outline-color:rgb(255, 0, 170);
+}
+b.e10{
+    color: rgb(111, 0, 255);;
+    font-family:  Brush Script MT;
+    outline-style: dashed ;
+    outline-color:rgb(111, 0, 255);
+}
+
+
+p.texto6 {
+    font-variant: small-caps;
+    font-size: 21px;
+    text-align: left;
+    border: 3px solid rgb(255, 0, 0);
+    position: left;
+    right: 0px;
+    width: 450px;
+    background-color: #E0FFFF;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 150%;
+  }
+  b.f1{
+    text-shadow: 2px 2px;
+    color: rgb(255, 230, 0);
+    font-family:Candara;
+    outline-color:rgb(255, 230, 0);
+}
+b.f2{
+    text-shadow: 2px 2px red;
+    color: rgb(0, 255, 242);
+    font-family:Lucida Bright;
+    outline-color:rgb(0, 255, 242);
+}
+b.ef3{
+    text-shadow: 2px 2px 5px red;
+    color:rgb(76, 252, 32);
+    font-family: Copperplate;
+    outline-color:rgb(81, 255, 0);
+}
+b.f4{
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+b.f5{
+    text-shadow: 0 0 3px #ff0000;
+    font-family: Didot;
+    outline-color:rgb(5, 5, 5);
+}
+b.f6{
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+    color: rgb(255, 136, 0);
+    font-family: Calisto MT;
+    outline-color:rgb(255, 136, 0);
+}
+b.f7{
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color:rgb(200, 255, 0);
+    font-family: Brush Script MT;
+    outline-color:rgb(200, 255, 0);
+}
+b.f8{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 5px darkblue;
+    font-family:Garamond;
+    outline-color:rgb(48, 255, 6);
+}
+b.f9{
+    color: rgb(0, 255, 255);
+    text-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 25px blue, 0 0 5px darkblue;
+    font-family:  Brush Script MT;
+    outline-color:rgb(111, 0, 255);
+}
+b.f10{
+    text-shadow: 2px 2px 5px rgb(111, 0, 255);
+    color: rgb(255, 0, 170);;
+    font-size: Palatino;
+    outline-color:rgb(255, 0, 170);
+}
+
+
+p.texto7 {
+    font-variant: small-caps;
+    font-size: 21px;
+    text-align: left;
+    border: 3px solid rgb(255, 0, 0);
+    position: left;
+    right: 0px;
+    width: 450px;
+    background-color: #E0FFFF;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 150%;
+  }
+  b.g1{
+    outline-style: dotted;
+    text-shadow: 2px 2px;
+    color: rgb(255, 230, 0);
+    font-family:Candara;
+    outline-color:rgb(255, 230, 0);
+}
+b.g2{
+    outline-style: dashed;
+    text-shadow: 2px 2px red;
+    color: rgb(0, 255, 242);
+    font-family:Lucida Bright;
+    outline-color:rgb(0, 255, 242);
+}
+b.g3{
+    outline-style: solid ;
+    text-shadow: 2px 2px 5px red;
+    color:rgb(76, 252, 32);
+    font-family: Copperplate;
+    outline-color:rgb(81, 255, 0);
+}
+b.g4{
+    outline-style: groove ;
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+b.g5{
+    outline-style: ridge ;
+    outline-color:rgb(255, 197, 6);
+    text-shadow: 0 0 3px #ff0000;
+    font-family: Didot;
+    outline-color:rgb(5, 5, 5);
+}
+b.g6{
+    outline-style: groove ;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+    color: rgb(255, 136, 0);
+    font-family: Calisto MT;
+    outline-color:rgb(255, 136, 0);
+}
+b.g7{
+    outline-style: solid ;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color:rgb(200, 255, 0);
+    font-family: Brush Script MT;
+    outline-color:rgb(200, 255, 0);
+}
+b.g8{
+    outline-style: dotted;
+    text-shadow: 2px 2px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 5px darkblue;
+    font-family:Garamond;
+    outline-color:rgb(48, 255, 6);
+}
+b.g9{
+    outline-style: dashed;
+    color: rgb(0, 255, 255);
+    text-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 25px blue, 0 0 5px darkblue;
+    font-family:  Brush Script MT;
+    outline-color:rgb(111, 0, 255);
+}
+b.g10{
+    outline-style: dashed;
+    text-shadow: 2px 2px 5px rgb(111, 0, 255);
+    color: rgb(255, 0, 170);;
+    font-size: Palatino;
+    outline-color:rgb(255, 0, 170);
+}
+
+
+p.texto8 {
+    font-variant: small-caps;
+    font-size: 21px;
+    text-align: left;
+    border: 3px solid rgb(255, 0, 0);
+    position: left;
+    right: 0px;
+    width: 450px;
+    background-color: #E0FFFF;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 150%;
+  }
+  b.h1{
+    text-decoration: line-through;
+    background-color: rgb(255, 0, 157);
+    text-shadow: 2px 2px;
+    color: rgb(255, 230, 0);
+    font-family:Candara;
+    outline-color:rgb(255, 230, 0);
+}
+b.h2{
+    
+    text-decoration: overline;
+    font-family: Perpetua;
+    background-color: rgb(201, 255, 74);
+    text-shadow: 2px 2px red;
+    color: rgb(0, 255, 242);
+    font-family:Lucida Bright;
+    outline-color:rgb(0, 255, 242);
+}
+b.h3{
+    text-decoration: underline;
+    background-color: rgb(76, 252, 32);
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px red;
+    color:rgb(76, 252, 32);
+    font-family: Copperplate;
+    outline-color:rgb(81, 255, 0);
+}
+b.h4{
+    text-decoration: overline underline;
+    font-family: Copperplate;
+    background-color: rgb(255, 0, 0);
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+b.h5{
+    text-decoration: overline;
+    font-family: Courier New;
+    background-color: rgb(255, 102, 0);
+    text-shadow: 0 0 3px #ff0000;
+    font-family: Didot;
+    outline-color:rgb(5, 5, 5);
+}
+b.h6{
+    text-decoration: line-through;
+    font-family:Lucida Bright;
+    background-color: rgb(88, 146, 255);
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+    color: rgb(255, 136, 0);
+    font-family: Calisto MT;
+    outline-color:rgb(255, 136, 0);
+}
+b.h7{
+    text-decoration: line-through;
+    font-family:Candara;
+    background-color: rgb(131, 255, 187);
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color:rgb(200, 255, 0);
+    font-family: Brush Script MT;
+    outline-color:rgb(200, 255, 0);
+}
+b.h8{
+    text-decoration: overline;
+    font-family: Brush Script MT;
+    background-color: rgb(255, 81, 0);
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 5px darkblue;
+    font-family:Garamond;
+    outline-color:rgb(48, 255, 6);
+}
+b.h9{
+    text-decoration: overline underline;
+    font-family:Garamond;
+    background-color: rgb(0, 255, 242);
+    color: rgb(0, 255, 255);
+    text-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 25px blue, 0 0 5px darkblue;
+    font-family:  Brush Script MT;
+    outline-color:rgb(111, 0, 255);
+}
+b.h10{
+    text-decoration: underline;
+    background-color: rgb(111, 0, 255);
+    text-shadow: 2px 2px 5px rgb(111, 0, 255);
+    color: rgb(255, 0, 170);;
+    font-size: Palatino;
+    outline-color:rgb(255, 0, 170);
+}
+
+
+
+
+p.texto9 {
+    font-variant: small-caps;
+    font-size: 21px;
+    text-align: left;
+    border: 3px solid rgb(0, 0, 0);
+    position: left;
+    right: 0px;
+    width: 450px;
+    background-color: #E0FFFF;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 150%;
+  }
+
+  b.i1{
+    background-color: rgb(255, 0, 157);
+    text-shadow: 2px 2px;
+    color: rgb(255, 230, 0);
+    font-family:Candara;
+    outline-color:rgb(255, 230, 0);
+}
+b.i2{
+    font-family: Perpetua;
+    background-color: rgb(201, 255, 74);
+    text-shadow: 2px 2px red;
+    color: rgb(0, 255, 242);
+    font-family:Lucida Bright;
+    outline-color:rgb(0, 255, 242);
+}
+b.i3{
+    background-color: rgb(76, 252, 32);
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px red;
+    color:rgb(76, 252, 32);
+    font-family: Copperplate;
+    outline-color:rgb(81, 255, 0);
+}
+b.i4{
+    font-family: Copperplate;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+b.i5{
+    font-family: Courier New;
+    background-color: rgb(255, 102, 0);
+    text-shadow: 0 0 3px #ff0000;
+    font-family: Didot;
+    outline-color:rgb(5, 5, 5);
+}
+b.i6{
+    font-family:Lucida Bright;
+    background-color: rgb(88, 146, 255);
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+    color: rgb(255, 136, 0);
+    font-family: Calisto MT;
+    outline-color:rgb(255, 136, 0);
+}
+b.i7{
+    font-family:Candara;
+    background-color: rgb(131, 255, 187);
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color:rgb(200, 255, 0);
+    font-family: Brush Script MT;
+    outline-color:rgb(200, 255, 0);
+}
+b.i8{
+    font-family: Brush Script MT;
+    background-color: rgb(255, 81, 0);
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 5px darkblue;
+    font-family:Garamond;
+    outline-color:rgb(48, 255, 6);
+}
+b.i9{
+    font-family:Garamond;
+    background-color: rgb(0, 255, 242);
+    color: rgb(0, 255, 255);
+    text-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 25px blue, 0 0 5px darkblue;
+    font-family:  Brush Script MT;
+    outline-color:rgb(111, 0, 255);
+}
+b.i10{
+    background-color: rgb(111, 0, 255);
+    text-shadow: 2px 2px 5px rgb(111, 0, 255);
+    color: rgb(255, 0, 170);;
+    font-size: Palatino;
+    outline-color:rgb(255, 0, 170);
+}
+
+
+p.texto10 {
+    font-variant: small-caps;
+    font-size: 21px;
+    text-align: left;
+    border: 3px solid rgb(0, 0, 0);
+    position: left;
+    right: 0px;
+    width: 450px;
+    background-color: #E0FFFF;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 150%;
+  }
+  b.j1{
+    text-shadow: 2px 2px;
+    color:rgb(76, 252, 32);
+    font-family: Copperplate;
+    outline-style: dotted;
+    outline-color:rgb(81, 255, 0);
+}
+b.j2{
+    text-shadow: 2px 2px red;
+    color:rgb(255, 0, 0);
+    font-family: Courier New;
+    outline-style: dashed;
+    outline-color:rgb(255, 0, 0);
+}
+b.j3{
+    text-shadow: 2px 2px 5px red;
+    color: rgb(255, 230, 0);
+    font-family:Candara;
+    outline-style: solid ;
+    outline-color:rgb(255, 230, 0);
+}
+b.j4{
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(0, 255, 242);
+    font-family:Lucida Bright;
+    outline-style: double ;
+    outline-color:rgb(0, 255, 242);
+}
+b.j5{
+    text-shadow: 0 0 3px #ff0000;
+    color:rgb(245, 28, 180);
+    font-family: Brush Script MT;
+    outline-style: groove ;
+    outline-color:rgb(245, 28, 180);
+}
+b.j6{
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+    color: rgb(48, 255, 6);
+    font-family:Garamond;
+    outline-style: ridge ;
+    outline-color:rgb(48, 255, 6);
+}
+b.j7{
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Didot;
+    outline-style: outset ;
+    outline-color:rgb(5, 5, 5);
+}
+b.j8{
+    text-shadow: 2px 2px 5px rgb(55, 0, 255);
+    color: rgb(255, 136, 0);
+    font-family: Calisto MT;
+    outline-style: dotted ;
+    outline-color:rgb(255, 136, 0);
+}
+b.j9{
+    text-shadow: 2px 2px 4px #f100bd;
+    color: rgb(255, 0, 170);;
+    font-size: Palatino;
+    outline-style: ridge ;
+    outline-color:rgb(255, 0, 170);
+}
+b.j10{
+    text-shadow: 0 0 3px #ffc400, 0 0 5px #fffb00;
+    color: rgb(111, 0, 255);;
+    font-family:  Brush Script MT;
+    outline-style: dashed ;
+    outline-color:rgb(111, 0, 255);
+}
